@@ -9,7 +9,7 @@
 ```
 Step1: Extract Data From HDFS
 
-Step2:Transform data from csv file to spark dataframe 
+Step2: Transform data from csv file to spark dataframe 
 
 Step3: Load data to mysql database by jdbc 
 ```
