@@ -1,11 +1,25 @@
 # ETL with PySpark
 
-### PySpark Useful SQL API 
+### 1. Purpose 
+
+* Tracking covid-19 `Vaccinations` across countries
+* Tracking  covid-19 `inflection rate` and `death rate`  across countries
+
+### 2. ETL Process
+```
+Step1: Extract Data From HDFS
+
+Step2:Transform data from csv file to spark dataframe 
+
+Step3: Load data to mysql database by jdbc 
+```
+
+### 3. PySpark Useful SQL API 
 1. select()
 2. filter() / where()
 3. isNotNull()
 4. format_number(col, digit)
-5. groupBY()
+5. groupBy()
 6. agg()
 7. withColumn()
 8. withColumnRenamed()
