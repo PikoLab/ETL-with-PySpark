@@ -18,13 +18,13 @@ Step3: (LAB2) Load data to PostgreSQL database by docker-compose
 
 * To spin up a local PostgreSQL database with pgAdmin:
 
-```shell
+```docker
 $ docker-compose -f ./pyspark_etl/docker-compose.yml up -d 
 ```
 
 * restart docker-compose
 
-```shell
+```docker
 $ cd ~/pyspark_etl
 $ docker-comppse start
 ```
