@@ -6,12 +6,14 @@
 * Tracking  covid-19 `inflection rate` and `death rate`  across countries
 
 ### 2. ETL Process
+
 ```
 Step1: Extract Data From HDFS
 
 Step2: Transform data from csv file to spark dataframe 
 
-Step3: Load data to mysql database by jdbc 
+Step3: (LAB1) Load data to MySQL database by jdbc connector
+Step3: (LAB2) Load data to PostgreSQL database by docker-compose 
 ```
 
 ### 3. PySpark Useful SQL API 
