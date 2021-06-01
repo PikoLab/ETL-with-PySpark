@@ -16,7 +16,7 @@ Step3: (LAB1) Load data to MySQL database by jdbc connector
 Step3: (LAB2) Load data to PostgreSQL database by docker-compose 
 ```
 
-* To spin up a local PostgreSQL database with pgAdmin:
+* Use docker-compose to spin up a local PostgreSQL database with pgAdmin:
 
 ```docker
 $ docker-compose -f ./pyspark_etl/docker-compose.yml up -d 
